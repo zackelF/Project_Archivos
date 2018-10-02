@@ -23,11 +23,17 @@ namespace Diccionario_de_Datos
         public string ruta = "";
         public string rutalter = "";
         public string nombrearchivo = "";
+
         public Form1()
         {
             InitializeComponent();
             inicializaTabla();
             Atr.Enabled = false;
+            textBoxEnt.Enabled = false;
+            button3.Enabled = false;
+            button4.Enabled = false;
+            button7.Enabled = false;
+            button2.Enabled = false;
         }
         public Form1(string cad)
         {
@@ -35,6 +41,11 @@ namespace Diccionario_de_Datos
             inicializaTabla();
             Atr.Enabled = false;
             textBoxArch.Text = cad;
+            textBoxEnt.Enabled = false;
+            button2.Enabled = false;
+            button3.Enabled = false;
+            button4.Enabled = false;
+            button7.Enabled = false;
         }
 
         public void volver()
@@ -44,10 +55,6 @@ namespace Diccionario_de_Datos
             Abrir_Click(s, e);
             checarentidades();
         }
-
-
-
-
 
         private void Abrir_Click(object sender, EventArgs e)
         {
@@ -89,11 +96,14 @@ namespace Diccionario_de_Datos
                     MessageBox.Show("Archivo creado:    " + textBoxArch.Text + ".bin");
 
                 }
+                activartodo();
+
             }
             else
             {
                 MessageBox.Show("Error 404: FILE NOT FOUND ");
             }
+            checarentidades();
         }
 
         private void inicializaTabla()
@@ -297,30 +307,6 @@ namespace Diccionario_de_Datos
             ActualizaTabla();
         }
 
-        private void Atributos_Click(object sender, EventArgs e)
-        {
-            if (Entidades.Count > 0)
-            {
-                Form2 atributos = new Form2(nombrearchivo);
-                // atributos.iguala(Entidades);
-                atributos.Entidades = Entidades;
-                atributos.archivo = archivo;
-                atributos.InicializaEntidades();
-                atributos.inicializaTabla();
-                atributos.inicializaComponentes();
-                atributos.Show();
-
-                Entidades = atributos.Entidades;
-                archivo = atributos.archivo;
-
-                actualizaIndices();
-                ActualizaTabla();
-                this.Close();
-            }
-            else
-                MessageBox.Show("No hay entidades insertadas");
-        }
-
         private void Atr_Click(object sender, EventArgs e)
         {
             ActualizaTabla();
@@ -358,8 +344,15 @@ namespace Diccionario_de_Datos
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void activartodo()
         {
+            textBoxEnt.Enabled = true;
+            button3.Enabled = true;
+            button4.Enabled = true;
+            button7.Enabled = true;
+            button2.Enabled = true;
         }
+
+        
     }
 }

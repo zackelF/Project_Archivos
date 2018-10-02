@@ -32,7 +32,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.Atributos = new System.Windows.Forms.Button();
             this.textBoxEnt = new System.Windows.Forms.TextBox();
             this.textBoxArch = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -52,19 +51,17 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(1092, 17);
-            this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label4.Location = new System.Drawing.Point(546, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(231, 25);
+            this.label4.Size = new System.Drawing.Size(114, 13);
             this.label4.TabIndex = 29;
             this.label4.Text = "Salvador Rivera Flores";
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(788, 242);
-            this.button7.Margin = new System.Windows.Forms.Padding(6);
+            this.button7.Location = new System.Drawing.Point(394, 126);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(150, 44);
+            this.button7.Size = new System.Drawing.Size(75, 23);
             this.button7.TabIndex = 28;
             this.button7.Text = "Refrescar";
             this.button7.UseVisualStyleBackColor = true;
@@ -73,58 +70,41 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(532, 63);
-            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label3.Location = new System.Drawing.Point(266, 33);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(95, 25);
+            this.label3.Size = new System.Drawing.Size(48, 13);
             this.label3.TabIndex = 27;
             this.label3.Text = "Archivos";
             // 
-            // Atributos
-            // 
-            this.Atributos.Location = new System.Drawing.Point(1160, 169);
-            this.Atributos.Margin = new System.Windows.Forms.Padding(6);
-            this.Atributos.Name = "Atributos";
-            this.Atributos.Size = new System.Drawing.Size(150, 44);
-            this.Atributos.TabIndex = 25;
-            this.Atributos.Text = "Atributos";
-            this.Atributos.UseVisualStyleBackColor = true;
-            this.Atributos.Visible = false;
-            this.Atributos.Click += new System.EventHandler(this.Atributos_Click);
-            // 
             // textBoxEnt
             // 
-            this.textBoxEnt.Location = new System.Drawing.Point(242, 169);
-            this.textBoxEnt.Margin = new System.Windows.Forms.Padding(6);
+            this.textBoxEnt.Location = new System.Drawing.Point(121, 88);
             this.textBoxEnt.Name = "textBoxEnt";
-            this.textBoxEnt.Size = new System.Drawing.Size(460, 31);
+            this.textBoxEnt.Size = new System.Drawing.Size(232, 20);
             this.textBoxEnt.TabIndex = 24;
             // 
             // textBoxArch
             // 
-            this.textBoxArch.Location = new System.Drawing.Point(236, 121);
-            this.textBoxArch.Margin = new System.Windows.Forms.Padding(6);
+            this.textBoxArch.Location = new System.Drawing.Point(118, 63);
             this.textBoxArch.Name = "textBoxArch";
-            this.textBoxArch.Size = new System.Drawing.Size(466, 31);
+            this.textBoxArch.Size = new System.Drawing.Size(235, 20);
             this.textBoxArch.TabIndex = 23;
             // 
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.ColumnHeader;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(34, 340);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(6);
+            this.dataGridView1.Location = new System.Drawing.Point(17, 177);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(1242, 321);
+            this.dataGridView1.Size = new System.Drawing.Size(621, 167);
             this.dataGridView1.TabIndex = 22;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(556, 240);
-            this.button4.Margin = new System.Windows.Forms.Padding(6);
+            this.button4.Location = new System.Drawing.Point(278, 125);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(150, 44);
+            this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 21;
             this.button4.Text = "Eliminar";
             this.button4.UseVisualStyleBackColor = true;
@@ -132,10 +112,9 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(336, 242);
-            this.button3.Margin = new System.Windows.Forms.Padding(6);
+            this.button3.Location = new System.Drawing.Point(168, 126);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(150, 44);
+            this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 20;
             this.button3.Text = "Modificar";
             this.button3.UseVisualStyleBackColor = true;
@@ -143,10 +122,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(146, 242);
-            this.button2.Margin = new System.Windows.Forms.Padding(6);
+            this.button2.Location = new System.Drawing.Point(73, 126);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(150, 44);
+            this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 19;
             this.button2.Text = "Agregar";
             this.button2.UseVisualStyleBackColor = true;
@@ -155,19 +133,17 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(56, 185);
-            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label2.Location = new System.Drawing.Point(28, 96);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(172, 25);
+            this.label2.Size = new System.Drawing.Size(86, 13);
             this.label2.TabIndex = 18;
             this.label2.Text = "Nombre_Entidad";
             // 
             // Abrir
             // 
-            this.Abrir.Location = new System.Drawing.Point(788, 121);
-            this.Abrir.Margin = new System.Windows.Forms.Padding(6);
+            this.Abrir.Location = new System.Drawing.Point(394, 63);
             this.Abrir.Name = "Abrir";
-            this.Abrir.Size = new System.Drawing.Size(150, 44);
+            this.Abrir.Size = new System.Drawing.Size(75, 23);
             this.Abrir.TabIndex = 17;
             this.Abrir.Text = "Abrir";
             this.Abrir.UseVisualStyleBackColor = true;
@@ -176,10 +152,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(50, 121);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Location = new System.Drawing.Point(25, 63);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(171, 25);
+            this.label1.Size = new System.Drawing.Size(86, 13);
             this.label1.TabIndex = 16;
             this.label1.Text = "Nombre_Archivo";
             // 
@@ -191,8 +166,7 @@
             this.Atr});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
-            this.toolStrip1.Size = new System.Drawing.Size(1342, 39);
+            this.toolStrip1.Size = new System.Drawing.Size(671, 25);
             this.toolStrip1.TabIndex = 30;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -202,21 +176,20 @@
             this.Atr.Image = ((System.Drawing.Image)(resources.GetObject("Atr.Image")));
             this.Atr.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Atr.Name = "Atr";
-            this.Atr.Size = new System.Drawing.Size(116, 36);
+            this.Atr.Size = new System.Drawing.Size(60, 22);
             this.Atr.Text = "Atributos";
             this.Atr.Click += new System.EventHandler(this.Atr_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
-            this.ClientSize = new System.Drawing.Size(1342, 673);
+            this.ClientSize = new System.Drawing.Size(671, 350);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.Atributos);
             this.Controls.Add(this.textBoxEnt);
             this.Controls.Add(this.textBoxArch);
             this.Controls.Add(this.dataGridView1);
@@ -227,10 +200,8 @@
             this.Controls.Add(this.Abrir);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.Color.DarkGreen;
-            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
-            this.Text = "Diccionario de Dtaos";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Text = "Entidades";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
@@ -244,7 +215,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button Atributos;
         private System.Windows.Forms.TextBox textBoxEnt;
         private System.Windows.Forms.TextBox textBoxArch;
         private System.Windows.Forms.DataGridView dataGridView1;
